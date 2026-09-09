@@ -1,0 +1,35 @@
+{
+	"env_prompt": "Following are the only actions available: \nwalk [object or room]: walk to object or room\nopen [object]: open an object\nclose [object]: close an object\nswitch [object]: switch on an object\ngrab [object] grab an object\nplace [object] on [recep]: put holding on top of an object\nput [object] in [recep]: put holding inside of an object",
+	"env_action_format": ["walk {noun1}", "open {noun1}", "close {noun1}", "switch {noun1}", "grab {noun1}", "place {noun1} on {noun2}", "put {noun1} in {noun2}"],
+	"env_action_dict": {
+		"walk": {
+			"noun": "None"
+		},
+		"open": {
+			"noun": "None"
+		},
+		"close": {
+			"noun": "None"
+		},
+		"switch": {
+			"noun": "None"
+		},
+		"grab": {
+			"noun": "None"
+		},
+		"place": {
+			"noun": {
+				"on": {
+					"noun": "None"
+				}
+			}
+		},
+		"put": {
+			"noun": {
+				"in": {
+					"noun": "None"
+				}
+			}
+		}
+	}
+}

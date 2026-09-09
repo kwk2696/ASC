@@ -1,0 +1,32 @@
+# Core training stack (pinned to the versions used for the reported results)
+torch==2.1.0
+transformers==4.46.0
+tokenizers==0.20.1
+datasets==3.0.2
+accelerate==1.0.1
+trl==0.11.4
+peft
+
+# Retrieval, scoring and logging
+numpy
+tqdm
+scikit-learn
+sentence-transformers
+rank-bm25
+wandb
+pyyaml
+
+# Rationale annotation (needs OPENAI_API_KEY)
+openai
+langchain-core
+langchain-openai
+
+# Pulled in by the bundled VirtualHome package (externals/virtualhome)
+opencv-python
+pillow
+requests
+ipdb
+
+# ALFRED only; see externals/README.md
+alfworld
+textworld

@@ -1,0 +1,37 @@
+{
+	"env_prompt": "Following are the only actions available:\ngo to [recep]: move to a receptacle/location\ntake [obj] from [recep]: pick up an object from a receptacle\nput [obj] in/on [recep]: place an object inside or on top of a receptacle\nheat [obj] with [recep]: heat an object using a receptacle\nclean [obj] with [recep]: clean an object using a receptacle",
+	"env_action_format": ["go to {noun1}", "take {noun1} from {noun2}", "put {noun1} in/on {noun2}", "heat {noun1} with {noun2}", "clean {noun1} with {noun2}"],
+	"env_action_dict": {
+		"go to": {
+			"noun": "None"
+		},
+		"take": {
+			"noun": {
+				"from": {
+					"noun": "None"
+				}
+			}
+		},
+		"put": {
+			"noun": {
+				"in/on": {
+					"noun": "None"
+				}
+			}
+		},
+		"heat": {
+			"noun": {
+				"with": {
+					"noun": "None"
+				}
+			}
+		},
+		"clean": {
+			"noun": {
+				"with": {
+					"noun": "None"
+				}
+			}
+		}
+	}
+}

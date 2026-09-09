@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editors
+tags
+*.swp
+*.swo
+
+# Experiment outputs
+results/
+checkpoints/
+wandb/
+*.log
+mono_crash*.json
+.hydra/
+
+# Raw simulator dumps produced by scripts/dataset/generate_*.py
+datasets/**/raw/
+
+# Third-party sources fetched by tools/setup_externals.sh
+externals/cl-alfred/
+externals/alfworld/json_2.1.1/
+externals/alfworld/logic/
+externals/alfworld/detectors/
+
+# Checkpoints and environments
+*.pt
+*.bin
+*.safetensors
+.venv/
+.DS_Store
